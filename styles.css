@@ -7,11 +7,21 @@ body {
     color: #333;
 }
 
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
 header {
     background-color: #333;
     color: white;
     padding: 1em 0;
     text-align: center;
+}
+
+header h1 {
+    margin: 0;
 }
 
 header nav ul {
@@ -30,7 +40,7 @@ header nav ul li a {
 }
 
 section {
-    padding: 2em;
+    padding: 2em 0;
     background-color: white;
     margin: 1em 0;
     border-radius: 8px;
@@ -39,10 +49,26 @@ section {
 
 h2 {
     color: #333;
+    text-align: center;
 }
 
-.project {
-    margin-bottom: 1em;
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e4e4e4;
+    margin: .5em 0;
+    padding: .5em;
+    border-radius: 5px;
 }
 
 footer {
@@ -53,4 +79,9 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
 }
